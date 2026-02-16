@@ -11,17 +11,39 @@ body {
 .perfil-social {
     text-align: center;
     background: hsl(0, 0%, 12%);
-    padding: 30px;
+    padding: 70px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.perfil-principal {
+    color: darkgray;
+
+}
+
+.perfil-principal h1 {
+    font-size: 28px;
+}
+
+.perfil-principal h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+    color: darkgray;
+}
+
 .foto-de-perfil {
-    width: 110px;
+    width: 100px;
     height: 100px;
     border-radius: 50%;
     border-bottom: 15px;
+    transition: transform 0.3 ease;
+}
 
+.foto-de-perfil:hover {
+    transform: scale(1.1);
 }
 
 .links {
